@@ -36,8 +36,9 @@ export const Route = createFileRoute("/")({
 function MaintenancePage() {
   return (
     <div className="flex min-h-screen w-full flex-col overflow-x-hidden bg-background">
-      <main className="mx-auto grid w-full max-w-6xl flex-1 grid-cols-1 items-center gap-14 px-6 pt-14 pb-10 sm:px-8 sm:pt-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20 lg:py-24">
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+      <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col items-center gap-12 px-6 pt-14 pb-10 sm:px-8 sm:pt-20 lg:grid lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-20 lg:py-24">
+        <div className="contents lg:flex lg:flex-col lg:items-start lg:text-left">
+        <div className="order-1 flex flex-col items-center text-center lg:contents">
         <img
           src={logoAsset.url}
           alt="Company logo"
@@ -58,10 +59,11 @@ function MaintenancePage() {
           Our website is currently under maintenance while we work on something better.
           We&rsquo;ll be back shortly.
         </p>
+        </div>
 
         <section
           aria-labelledby="contact-heading"
-          className="mt-12 w-full border-t border-border pt-8 sm:mt-14"
+          className="order-3 w-full border-t border-border pt-8 text-center lg:mt-12 lg:text-left"
         >
           <h2 id="contact-heading" className="text-lg font-bold tracking-tight text-foreground">
             Need to reach us?
