@@ -116,7 +116,7 @@ function MaintenancePage() {
         </section>
         </div>
 
-        <figure className="order-first w-full lg:order-none">
+        <figure className="order-2 w-full">
           <video
             className="mx-auto block h-auto w-full max-w-[320px] rounded-2xl border-0 outline-none sm:max-w-[380px] lg:max-w-[440px]"
             style={{ aspectRatio: "464 / 832" }}
