@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import ShinyText from "@/components/ShinyText";
 import logoAsset from "@/assets/gmi-logo.png.asset.json";
 import videoAsset from "@/assets/maintenance.mp4.asset.json";
 
